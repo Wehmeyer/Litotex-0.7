@@ -20,12 +20,13 @@ Released under the GNU General Public License
 ************************************************************
 */
 
-@ session_start();
-error_reporting(E_ALL);
 session_name("litoid");
+session_start();
+
+error_reporting(E_ALL);
 
 $sid = session_id();
-//$Database index
+
 $n = 1;
 
 if (isset ($_SESSION['litotex_start_acp'])) {
@@ -116,8 +117,8 @@ $time_start = $time_start[1] + $time_start[0];
 $tpl = new smarty;
 
 $tpl->template_dir = LITO_THEMES_PATH;
-$tpl->compile_dir = LITO_ROOT_PATH . 'acp/templates_c';
-$tpl->cache_dir = LITO_ROOT_PATH . 'acp/cache';
+$tpl->compile_dir = LITO_ROOT_PATH . 'cache/Smarty/templates_c_acp/';
+$tpl->cache_dir = LITO_ROOT_PATH . 'cache/Smarty/cache_acp/';
 
 setlocale(LC_ALL, array (
 'de_DE',

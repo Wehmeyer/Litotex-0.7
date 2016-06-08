@@ -1,5 +1,3 @@
-<?PHP
-
 BUILD_DEFF_ERROR_1 = Fehlerhafte Eingabe
 BUILD_DEFF_ERROR_2 = Bicht ge&uuml;gend Ressourcen vorhanden
 BUILD_DEFF_ERROR_3 = Auf diesm Land befindet sich nichts in Bau
@@ -21,4 +19,3 @@ BUILD_DEFF_13 = vorhanden
 BUILD_DEFF_14 = AP
 BUILD_DEFF_15 = VP
 BUILD_DEFF_16 = "Status"
-?>

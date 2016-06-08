@@ -1,25 +1,27 @@
 <?PHP
 /*
 ************************************************************
-Litotex Browsergame - Engine
+Litotex BrowsergameEngine
 http://www.Litotex.de
 http://www.freebg.de
+http://www.litotex.info (!NEW)
 
 Copyright (c) 2008 FreeBG Team
+Copyright (c) 2016 Litotex.info
 ************************************************************
 Hinweis:
-Diese Software ist urheberrechtlich geschützt.
+Diese Software ist urheberechtlich geschÃ¼tzt.
 
-Für jegliche Fehler oder Schäden, die durch diese Software
-auftreten könnten, übernimmt der Autor keine Haftung.
+FÃ¼r jegliche Fehler oder SchÃ¤den, die durch diese Software
+auftreten kÃ¶nnten, Ã¼bernimmt der Autor keine Haftung.
 
-Alle Copyright - Hinweise innerhalb dieser Datei
-dürfen WEDER entfernt, NOCH verändert werden.
+Alle Copyright - Hinweise Innerhalb dieser Datei
+dÃ¼rfen NICHT entfernt und NICHT verÃ¤ndert werden.
 ************************************************************
 Released under the GNU General Public License
 ************************************************************
-
 */
+
 $serverid=0;
 
 require("./config.php");
@@ -46,7 +48,7 @@ $db->query("UPDATE cc".$n."_users SET status='0' WHERE lastactive>='$tmm' AND st
 $db->query("UPDATE cc".$n."_allianz SET points='0' WHERE points>'0'");
 
 $db->query("UPDATE cc".$n."_countries SET points='0' WHERE points>'0'");
-// berechnung punkte gebäude
+// berechnung punkte gebï¿½ude
 $update_counter=0;
 $result_b=$db->query("SELECT * FROM cc".$n."_buildings");
 while($row_b=$db->fetch_array($result_b)) {

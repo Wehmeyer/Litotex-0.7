@@ -9,13 +9,13 @@
   Copyright (c) 2008 FreeBG Team
  	************************************************************
 	Hinweis:
-  Diese Software ist urheberechtlich geschützt.
+  Diese Software ist urheberechtlich geschï¿½tzt.
 
-  Für jegliche Fehler oder Schäden, die durch diese Software
-  auftreten könnten, übernimmt der Autor keine Haftung.
+  Fï¿½r jegliche Fehler oder Schï¿½den, die durch diese Software
+  auftreten kï¿½nnten, ï¿½bernimmt der Autor keine Haftung.
   
   Alle Copyright - Hinweise Innerhalb dieser Datei 
-  dürfen NICHT entfernt und NICHT verändert werden. 
+  dï¿½rfen NICHT entfernt und NICHT verï¿½ndert werden. 
   ************************************************************
   Released under the GNU General Public License 
   ************************************************************  
@@ -23,8 +23,4 @@
  
  require('./includes/global.php');
  
- //template_out('file:'.LITO_ROOT_PATH.'/modules/login/themes/standard/login.html');
-  header("LOCATION: ".LITO_MODUL_PATH_URL.'acp_login/login.php');
-
- 
-?>
+header("LOCATION: ".LITO_MODUL_PATH_URL.'acp_login/login.php');

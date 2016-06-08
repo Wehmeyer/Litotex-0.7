@@ -20,7 +20,7 @@ Released under the GNU General Public License
 ************************************************************
 
 */
-@session_start();
+
 $modul_name="spionage";
 require("./../../includes/global.php");
 

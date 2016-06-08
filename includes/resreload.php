@@ -1,24 +1,25 @@
 <?PHP
 /*
 ************************************************************
-Litotex Browsergame - Engine
+Litotex BrowsergameEngine
 http://www.Litotex.de
 http://www.freebg.de
+http://www.litotex.info (!NEW)
 
 Copyright (c) 2008 FreeBG Team
+Copyright (c) 2016 Litotex.info
 ************************************************************
 Hinweis:
-Diese Software ist urheberrechtlich geschützt.
+Diese Software ist urheberechtlich geschÃ¼tzt.
 
-Für jegliche Fehler oder Schäden, die durch diese Software
-auftreten könnten, übernimmt der Autor keine Haftung.
+FÃ¼r jegliche Fehler oder SchÃ¤den, die durch diese Software
+auftreten kÃ¶nnten, Ã¼bernimmt der Autor keine Haftung.
 
-Alle Copyright - Hinweise innerhalb dieser Datei
-dürfen WEDER entfernt, NOCH verändert werden.
+Alle Copyright - Hinweise Innerhalb dieser Datei
+dÃ¼rfen NICHT entfernt und NICHT verÃ¤ndert werden.
 ************************************************************
 Released under the GNU General Public License
 ************************************************************
-
 */
 
 $time_start = explode(' ', substr(microtime(), 1));

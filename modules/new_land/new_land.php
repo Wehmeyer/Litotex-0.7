@@ -8,20 +8,20 @@ http://www.freebg.de
 Copyright (c) 2008 FreeBG Team
 ************************************************************
 Hinweis:
-Diese Software ist urheberrechtlich geschützt.
+Diese Software ist urheberrechtlich geschï¿½tzt.
 
-Für jegliche Fehler oder Schäden, die durch diese Software
-auftreten könnten, übernimmt der Autor keine Haftung.
+Fï¿½r jegliche Fehler oder Schï¿½den, die durch diese Software
+auftreten kï¿½nnten, ï¿½bernimmt der Autor keine Haftung.
 
 Alle Copyright - Hinweise innerhalb dieser Datei
-dürfen WEDER entfernt, NOCH verändert werden.
+dï¿½rfen WEDER entfernt, NOCH verï¿½ndert werden.
 ************************************************************
 Released under the GNU General Public License
 ************************************************************
 
 */
 
-@session_start();
+
 $modul_name="new_land";
 require_once("./../../includes/global.php");
 
@@ -75,14 +75,14 @@ if($action=="main") {
 			$map=$db->fetch_array($result3);
 			if ($map) {
 				$rand=rand(1,15);
-				trace_msg("landgründung zufall: $rand win : 3,7,9,12",113);
+				trace_msg("landgrï¿½ndung zufall: $rand win : 3,7,9,12",113);
 				if($rand==3 || $rand==7 || $rand==9 || $rand==12) {
 					$db->query("INSERT INTO cc".$n."_countries (race,res1,res2,res3,res4,userid,lastressources,picid,x,y,size) VALUES ('$userdata[rassenid]','$op_reg_res1','$op_reg_res2','$op_reg_res3','$op_reg_res4','$userdata[userid]','".time()."','".rand(1,4)."','$map[x]','$map[y]','".rand($op_min_c_size,$op_max_c_size)."')");
 					$db->query("UPDATE cc".$n."_crand SET used='1' WHERE x='$map[x]' AND y='$map[y]'");
 					make_ingamemail(0,$userdata['userid'],$newland11,$newland12);
 				} else {
 					$die=rand(1,10); //set the die value $die=rand(1,xx);
-					trace_msg("landgründung $die 1 <> 1  come back",113);
+					trace_msg("landgrï¿½ndung $die 1 <> 1  come back",113);
 					if($die!=1) {
 						$db->query("UPDATE cc".$n."_countries SET sol_kolo=sol_kolo+'1' WHERE islandid='$userdata[islandid]'");
 					} else {
@@ -92,7 +92,7 @@ if($action=="main") {
 				}
 			} else {
 				$die=rand(1,10);
-				trace_msg("landgründung no land found $die 1 <> 1  come back",113);
+				trace_msg("landgrï¿½ndung no land found $die 1 <> 1  come back",113);
 				if($die!=1) {
 					$db->query("UPDATE cc".$n."_countries SET sol_kolo=sol_kolo+'1' WHERE islandid='$userdata[islandid]'");
 				} else {
@@ -145,7 +145,7 @@ if($action=="send") {
 			exit();
 		}
 
-		//neue Berechnung für die Länge der Reise
+		//neue Berechnung fï¿½r die Lï¿½nge der Reise
 		$sol_speed=get_soldiers_speed("sol_kolo",$userdata['rassenid']);
 		$starttime = time();
 		$an_time=get_duration_time($userdata['x'],$userdata['y'],$x,$y,$sol_speed);

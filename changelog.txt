@@ -1,30 +1,47 @@
+Version 0.7.1 #Dailyupdate(08.06.2016) (Von K. Wehmeyer unter www.litotex.info)
+
+Allgemeines
+- Indexmodul wurde erstellt & verwendet
+- global.php wurde Ã¼berarbeitet
+- In allen Modulen wurden "session_start();" gelÃ¶scht.
+- Smarty wurde auf die Version 3.1.29 geupdated
+- functions.php wurde Ã¼berarbeitet
+- Ein neuer Cache ordner wurde erstellt, dies soll der Hauptordner fÃ¼r Cache sachen werden
+
+Lang
+- Die Langs wurden an das Update von Smarty angepasst
+
+ACP
+- Wurde vorbereitet fÃ¼r die Umstellung kann Fehlerhaft sein!
+
+=====================================================================================
 Version 0.7.0
 
 Allgemeines
 - Umstellung des gesamten Code auf eine Art 'Modulsystem'
 - Einsatz der Template-Engine Smarty
 - Versenden von HTML-Emails zur Registrierung
-- Login ins Game als Serveradministrator nicht möglich
+- Login ins Game als Serveradministrator nicht mï¿½glich
 - neuer allgemeiner Fortschrittsbalken eingebaut
-- Fortschritsbalken mit unterschiedlichen Farben für Angriffe /Rückkehr / eigene Angriffe
-- Bugfix, wonach Spieler, die länger online sind, 20-30% mehr Ressourcen bekommen
+- Fortschritsbalken mit unterschiedlichen Farben fï¿½r Angriffe /Rï¿½ckkehr / eigene Angriffe
+- Bugfix, wonach Spieler, die lï¿½nger online sind, 20-30% mehr Ressourcen bekommen
 
 ACP (Admin-Control-Panel)
 - ACP wurde von Grund auf neu entwickelt
-- Lagerhalle eingefügt
+- Lagerhalle eingefï¿½gt
 - Lagermultiplikator im ACp einstellbar
-- Festlegung der Standartlagergröße
-- Festlegung um welche Einheitsgröße ein Land erweitert werden kann
-- Festlegung der maximalen Allianzgröße
-- Festlegung welcher Prozentanteil beim Abriss von Gebäuden gutgeschrieben wird
-- Festlegung welcher Prozentanteil beim Abbruch von Gebäuden gutgeschrieben wird 
-- Festlegung ob der BadwordFilter auch für Ingame-Nachrichten angewendet wird
-- Festlegung ob Ressourcen über Crontab oder über das Game berechnet werden
+- Festlegung der Standartlagergrï¿½ï¿½e
+- Festlegung um welche Einheitsgrï¿½ï¿½e ein Land erweitert werden kann
+- Festlegung der maximalen Allianzgrï¿½ï¿½e
+- Festlegung welcher Prozentanteil beim Abriss von Gebï¿½uden gutgeschrieben wird
+- Festlegung welcher Prozentanteil beim Abbruch von Gebï¿½uden gutgeschrieben wird 
+- Festlegung ob der BadwordFilter auch fï¿½r Ingame-Nachrichten angewendet wird
+- Festlegung ob Ressourcen ï¿½ber Crontab oder ï¿½ber das Game berechnet werden
 
 ACP Template Modul 
 - Verwaltung unterschiedlicher Templates
 - Aktivierung als Standarttemplate
-- Aktivierung als 'zusätzliches alternatives Template', damit dieser in den Usereinstellungen auswählbar ist
+- Aktivierung als 'zusï¿½tzliches alternatives Template', damit dieser in den Usereinstellungen auswï¿½hlbar ist
 - Testen von Templates
 - Upload vom Templates
 - Duplizieren von Templates (neue Kopie erstellen)
@@ -33,35 +50,35 @@ ACP Template Modul
 ACP Gruppenmanager
 - Festlegung von Benutzergruppen 
 - Einstellungen von Zugriffsleveln
-- Festlegung von Zugriffsleveln für jedes Modul
+- Festlegung von Zugriffsleveln fï¿½r jedes Modul
 
 ACP Usereditor
-- Festlegung der Gruppenzugehörigkeit um Usern den Teilzugriff ins ACP zu ermöglichen
-- Änderung von Usernamen
-- Änderung von Kennwörtern
-- Änderung von Emailadressen
+- Festlegung der Gruppenzugehï¿½rigkeit um Usern den Teilzugriff ins ACP zu ermï¿½glichen
+- ï¿½nderung von Usernamen
+- ï¿½nderung von Kennwï¿½rtern
+- ï¿½nderung von Emailadressen
 
 ACP Pluginmanager
 - Auflistung aller Module, getrennt nach Game- und ACP-Modulen
 - Aktivierung/Deaktivierung von Modulen
 - automatisches Update von Modulen
-(Bei nicht unterstützten Feature seitens der PHP Konfiguration des Webspaces muss dieses manuell geschehen.)
+(Bei nicht unterstï¿½tzten Feature seitens der PHP Konfiguration des Webspaces muss dieses manuell geschehen.)
 - Suche nach neuen Updates
 
 ACP Bannermanager
-- eintragen, bearbeiten, löschen von Bannern
+- eintragen, bearbeiten, lï¿½schen von Bannern
 - aktivieren/deaktivieren
-- zufällige Anzeige InGame
+- zufï¿½llige Anzeige InGame
 
 ACP Badwordeditor
-- hinzufügen/löschen von Wörtern, welche bei der Registrierung nicht erlaubt sind
+- hinzufï¿½gen/lï¿½schen von Wï¿½rtern, welche bei der Registrierung nicht erlaubt sind
 - Optional werden diese auch in Ingame-Nachrichten gefiltert
 
 ACP Unit Editor
-- Bugfix der zu falschen Werten beim Speichern führte
+- Bugfix der zu falschen Werten beim Speichern fï¿½hrte
 - kopieren der Einstellungen von einer Rasse auf die andere
 
-ACP Gebäudeeditor
+ACP Gebï¿½udeeditor
 - kopieren der Einstellungen von einer Rasse auf die andere
 
 ACP Forschungseditor
@@ -70,13 +87,13 @@ ACP Forschungseditor
 ACP Navigationseditor
 - konfigurieren von neuen Links
 - Konfiguration pro Design
-- 3 mögliche Linkslisten (rechts, links, oben)
+- 3 mï¿½gliche Linkslisten (rechts, links, oben)
 - verschieben von Links mittels Drag'n Drop
 - Unterschied ob Links vor oder nach dem Login angezeigt werden sollen
 
 Ingame Einstellungen
-- WYSIWYG Editor für persönliche Beschreibungen
-- dynamisches Signaturimage für Anzeige in Foren o.ä. mit HTML und BB Code
+- WYSIWYG Editor fï¿½r persï¿½nliche Beschreibungen
+- dynamisches Signaturimage fï¿½r Anzeige in Foren o.ï¿½. mit HTML und BB Code
 - verbessertes Errorhandling beim Hochladen von Userbildern
 
 Ingame Ranking
@@ -84,42 +101,42 @@ Ingame Ranking
 - Links auf Allianzen zu einer Allianz-Profilpage
 
 Allianzen
-- Bewerbungen eingefügt
-- Bewerbung bei einer Allianz ist nur möglich, wenn man selbst noch in keiner Allianz ist
+- Bewerbungen eingefï¿½gt
+- Bewerbung bei einer Allianz ist nur mï¿½glich, wenn man selbst noch in keiner Allianz ist
 - automatisches zusenden des Kennwortes wenn der Allianz-Admin der Bewerbung zustimmt
-- Allianzforum - Kategorie kann nun gelöscht werden
+- Allianzforum - Kategorie kann nun gelï¿½scht werden
 - verbessertes Errorhandling beim Hochladen von Allianzbanner
-- Sicherheitsabfrage vor dem Auflösen
+- Sicherheitsabfrage vor dem Auflï¿½sen
 
 Ausbildung von Einheiten
 - Bugfix der die falsche zeit berechnete
 
 Techtree
-- Techtree zur Übersicht der möglichen Gebäude / Forschungen / Einheiten
+- Techtree zur ï¿½bersicht der mï¿½glichen Gebï¿½ude / Forschungen / Einheiten
 
 Usersuche
 - Suche nach Usern 
 
 Map
--Übersichtskarte eingebaut
+-ï¿½bersichtskarte eingebaut
 
 Gruppieren von Einheiten
 - Bugfix der eine negative Zahl als Eingabe zugelassen hat
 - neue Funktion zum Abladen von Ressourcen ins Lager
-- Tooltip über die Gruppen um Inhalt (Einheiten und Ressourcen) zu sehen
+- Tooltip ï¿½ber die Gruppen um Inhalt (Einheiten und Ressourcen) zu sehen
 
 Update.php
-- zeigt nun neben der Berechnungszeit in Sekunden auch die Anzahl der Länder, welche berechnet worden sind an
-- keine Berechnung für den Serveradministrator
+- zeigt nun neben der Berechnungszeit in Sekunden auch die Anzahl der Lï¿½nder, welche berechnet worden sind an
+- keine Berechnung fï¿½r den Serveradministrator
 - Bugfix der falsche Werte geliefert hat
 
-Gebäude bauen
+Gebï¿½ude bauen
 - Fehler behoben, der falsche Ressourcen abgezogen hat
 
 Landerweiterung.
-- Die Größe einer Erweiterung kann im ACP unter Spieleinstellungen vorgenommen werden
-- Bugfix der dazu führte, dass das Gründen nicht möglich war (10 Felder-Bug)
-- Bugfix der dazu führte, dass ein neues Land keine rassen_id bekam, und somit keine Punkte berechnet wurden.
+- Die Grï¿½ï¿½e einer Erweiterung kann im ACP unter Spieleinstellungen vorgenommen werden
+- Bugfix der dazu fï¿½hrte, dass das Grï¿½nden nicht mï¿½glich war (10 Felder-Bug)
+- Bugfix der dazu fï¿½hrte, dass ein neues Land keine rassen_id bekam, und somit keine Punkte berechnet wurden.
 
 Nachrichten
 - Anzeige der Anzahl von neuen Nachrichten auf allen Seiten
@@ -127,19 +144,19 @@ Nachrichten
 
 Kampfmodul
 - Bugfix bei division durch 0
-- Bugfix bei Einheitenzuordnungen für das KS
+- Bugfix bei Einheitenzuordnungen fï¿½r das KS
 - Anzeige der Anzahl von Angriffen auf das eigene Land
 - dies erfolgt auch ohne Reload der Seite dynamisch
-- Ressourcen von fremden Ländern können prozentuell geklaut werden, sofern keine Einheiten mehr auf dem Land sind
-- % können im ACP eingestellt werden
-- Anzeige der eigenen Truppenstärke mittels ToolTip
+- Ressourcen von fremden Lï¿½ndern kï¿½nnen prozentuell geklaut werden, sofern keine Einheiten mehr auf dem Land sind
+- % kï¿½nnen im ACP eingestellt werden
+- Anzeige der eigenen Truppenstï¿½rke mittels ToolTip
 - Noobschutz in 2 Versionen integriert
 1) nach x Tagen ab Registrierungsdatum
 2) unter x Punkten
 - beides im ACP einstellbar
-- Überarbeitung der Performance des Kampfscriptes
-- somit ist es nun möglich auch 300 millionen Einheiten zu berechnen :)
-- Spezielle Tracefunktion für das Kampfscript (ein/ausschaltbar im ACP)
+- ï¿½berarbeitung der Performance des Kampfscriptes
+- somit ist es nun mï¿½glich auch 300 millionen Einheiten zu berechnen :)
+- Spezielle Tracefunktion fï¿½r das Kampfscript (ein/ausschaltbar im ACP)
 
 
 
@@ -148,11 +165,11 @@ Kampfmodul
 =====================================================================================
 
 Version 0.6.1
-Hier unser Changelog (0.6.0 - 0.6.1), die Änderungen nimmt man als Endbenutzer kaum wahr, im Core allerdings hat sich einiges getan.
+Hier unser Changelog (0.6.0 - 0.6.1), die ï¿½nderungen nimmt man als Endbenutzer kaum wahr, im Core allerdings hat sich einiges getan.
 
-Hier die Änderungspunkte in Grobübersicht:
+Hier die ï¿½nderungspunkte in Grobï¿½bersicht:
 -register_globals=off
-Die erste Litotex Version (0.6.0) wurde voerst mit der Bedingung released, dass register_globals auf ON sein müsste. Paar Tage darauf wurde bereits ein Patch veröffentlich, der auch ohne diese Bedingung klarkommt. Somit gilt ist nun Litotex 0.6.1 auch mit register_globals=off installierbar.
+Die erste Litotex Version (0.6.0) wurde voerst mit der Bedingung released, dass register_globals auf ON sein mï¿½sste. Paar Tage darauf wurde bereits ein Patch verï¿½ffentlich, der auch ohne diese Bedingung klarkommt. Somit gilt ist nun Litotex 0.6.1 auch mit register_globals=off installierbar.
 
 -Rohstoffabzug im Baumodul
 Im Baumodul ist nun der Fehler behoben, dass mehr Rohstoffe abgezogen werden, als wirklich verlangt.
@@ -161,67 +178,67 @@ Im Baumodul ist nun der Fehler behoben, dass mehr Rohstoffe abgezogen werden, al
 Die normalen Eingabefelder wurden durch Kennwortfelder ausgetauscht.
 
 -Infotext am Anfang der Datei
-Diverse Rechtschreibfehler beseitigt und Satzbau verändert.
+Diverse Rechtschreibfehler beseitigt und Satzbau verï¿½ndert.
 
--Passwortänderung unter "Benutzereinstellungen"
-Die Passwortänderung haben wir dem heutigen Standard angepasst, sodass dabei das aktuelle Passwort dafür verlangt wird und man das neue Passwort wiederholen muss.
+-Passwortï¿½nderung unter "Benutzereinstellungen"
+Die Passwortï¿½nderung haben wir dem heutigen Standard angepasst, sodass dabei das aktuelle Passwort dafï¿½r verlangt wird und man das neue Passwort wiederholen muss.
 
--Newsmodul überarbeitet
-Die Newstemplates auf der Startseite wurden verändert, die Löschfunktion hinzugefügt und seit dem Update können nun auch englische News verfasst & bearbeitet werden.
+-Newsmodul ï¿½berarbeitet
+Die Newstemplates auf der Startseite wurden verï¿½ndert, die Lï¿½schfunktion hinzugefï¿½gt und seit dem Update kï¿½nnen nun auch englische News verfasst & bearbeitet werden.
 
 -ACP umstrukturiert
-Die Navigationspunkte im ACP wurden verändert, angepasst und somit benutzerfreundlicher gemacht.
+Die Navigationspunkte im ACP wurden verï¿½ndert, angepasst und somit benutzerfreundlicher gemacht.
 
 -IGM
-Ingame-Nachrichtenfunktion bekam auch ein benutzerfreundlicheres Gesicht, zumindest was die Navigation betrifft, desweiteren wurde die Nachrichten-Priorität "Nicht Wichtig" entfernt, das wird blind aus LKL übernommen hatten.
-Es gab auch eine Generalüberholung, sodass nunmehr die Nachrichten in BBCODE gespeichert und angezeigt werden.
+Ingame-Nachrichtenfunktion bekam auch ein benutzerfreundlicheres Gesicht, zumindest was die Navigation betrifft, desweiteren wurde die Nachrichten-Prioritï¿½t "Nicht Wichtig" entfernt, das wird blind aus LKL ï¿½bernommen hatten.
+Es gab auch eine Generalï¿½berholung, sodass nunmehr die Nachrichten in BBCODE gespeichert und angezeigt werden.
 
--Registrierung überarbeitet
+-Registrierung ï¿½berarbeitet
 Nur mehr eine Registrierung pro Email erlaubt.
 
 -Forum
 Auch hier werden die Nachrichten in BBCODE gespeichert und ausgegeben.
 
 -neuer Editor
-Für Benutzerbeschreibungen & Co steht nun ein neuer Editor zur Verfügung, inkl. der Vorschaufunktion für Bilder.
+Fï¿½r Benutzerbeschreibungen & Co steht nun ein neuer Editor zur Verfï¿½gung, inkl. der Vorschaufunktion fï¿½r Bilder.
 
 -functions.php
 Die Funktionen "userpic", "banner", "b-trim" wurden komplett aus dem Spiel entfernt.
 
 -Allianzbanner
-Seit dem Update ist es möglich, Allianzbanner hochzuladen.
+Seit dem Update ist es mï¿½glich, Allianzbanner hochzuladen.
 
 -Allianzanzeige aus Ranking
 Kommt man vom Ranking(Allianz) zur Allianzbeschreibung, wird hier nun auch der Banner und der Beschreibungstext der Allianz angezeigt.
 
 -Impressum
-Impressum auch innerhalb des Spiels "verfügbar".
+Impressum auch innerhalb des Spiels "verfï¿½gbar".
 
 -Funktionsnamen
 Alle Funktionsnamen sind nun kleingeschrieben und auf englisch.
 
--Rassenauswahl geändert
-Bei der Rassenauswahl können nun auch Bilder hinterlegt werden, die Auswahl wird entsprechend der ausgewählten Sprache angezeigt.
+-Rassenauswahl geï¿½ndert
+Bei der Rassenauswahl kï¿½nnen nun auch Bilder hinterlegt werden, die Auswahl wird entsprechend der ausgewï¿½hlten Sprache angezeigt.
 
 -Rassenauswahl Bug behoben
-User kann nur einmal die Rasse auswählen.
+User kann nur einmal die Rasse auswï¿½hlen.
 
--Änderung an class_options
+-ï¿½nderung an class_options
 Diese kann nun auch wieder html speichern, ohne dass es zu Problemen in der options0.php kommt.
 
 -CSS Datei
-Auch gabs Änderungen an der CSS-Datei, die ziemlich stark getrimmt worden ist, sodass wir die Farben benutzerfreundlicher gestalten und das Layout etwas ändern. Doppelte Exit-Icons sollten nun nicht mehr auftreten. Die CSS-Datei ist nun auch CSS Level 2.1 valid.
+Auch gabs ï¿½nderungen an der CSS-Datei, die ziemlich stark getrimmt worden ist, sodass wir die Farben benutzerfreundlicher gestalten und das Layout etwas ï¿½ndern. Doppelte Exit-Icons sollten nun nicht mehr auftreten. Die CSS-Datei ist nun auch CSS Level 2.1 valid.
 
 -Setup
-Kleinere Schönheitsfehler, aber auch sonstige Fehler konnten wir beheben.
+Kleinere Schï¿½nheitsfehler, aber auch sonstige Fehler konnten wir beheben.
 
 -Punkteberechnung
 Die Punkteberechnung erfolgt nun einwandfrei, einzelne kleinere Fehler wurden gefixt.
 
--Anzeige verfügbarer Einheiten in Kaserne korrigiert
+-Anzeige verfï¿½gbarer Einheiten in Kaserne korrigiert
 
--Benutzerlöschung per ACP
-Löscht nun alle relevanten Eintragungen aus der DB
+-Benutzerlï¿½schung per ACP
+Lï¿½scht nun alle relevanten Eintragungen aus der DB
 
 -Bug beim Formatieren von Gruppen behoben
 
@@ -229,11 +246,11 @@ Löscht nun alle relevanten Eintragungen aus der DB
 Nach einem Kampf bekommen nun beide einen Kampfreport
 
 -Registrierung
-Lässt im Usernamen nur Zahlen zwischen 0-9 Buchstaben zwischen a-z und ein _ sowie - zu. Desweiteren sind zwei neue Templates eingebaut worden, register_subject_en.html & register_message_en.html (natürlich für die englische Sprache).
+Lï¿½sst im Usernamen nur Zahlen zwischen 0-9 Buchstaben zwischen a-z und ein _ sowie - zu. Desweiteren sind zwei neue Templates eingebaut worden, register_subject_en.html & register_message_en.html (natï¿½rlich fï¿½r die englische Sprache).
 
 -Passwort vergessen
-Hier wurden zwei Bugs behoben, die einerseits zu einem DB-Fehler führten und andererseits das MD5-Kennwort versendete.
-Desweiteren 2 neue Templates für die englische Sprache (register_p_subject_en.html & register_p_message_en.html)
+Hier wurden zwei Bugs behoben, die einerseits zu einem DB-Fehler fï¿½hrten und andererseits das MD5-Kennwort versendete.
+Desweiteren 2 neue Templates fï¿½r die englische Sprache (register_p_subject_en.html & register_p_message_en.html)
 
 -Kampfreport
 Dem abgespeicherten Kampfreport wird im Dateinamen noch eine Zufallszahl mitgegeben. Somit kann nicht jeder die Kampfreporte anderer einsehen.
@@ -242,7 +259,7 @@ Dem abgespeicherten Kampfreport wird im Dateinamen noch eine Zufallszahl mitgege
 Auf der Ingame-Startseite wird nun die Produktion pro Stunde angezeigt.
 
 -Gutschrift
-Auf der Ingame-Startseite wird nun die Zeit (in Sek.) bis zur nächsten Gutschrift angezeigt.
+Auf der Ingame-Startseite wird nun die Zeit (in Sek.) bis zur nï¿½chsten Gutschrift angezeigt.
 
 -Waffenfabrik
 Nach Ende des Countdowns erfolgte die Weiterleitung auf eine falsche Seite.
@@ -250,20 +267,20 @@ Nach Ende des Countdowns erfolgte die Weiterleitung auf eine falsche Seite.
 -englische Dateinamen
 Nun sind alle Dateinamen auf englisch.
 
--Änderungen in den de_Sprachdateien
-Die Sprachdateien wurden aufgeräumt, etliche Doppeleintragungen gestrichen, Rechtschreibfehler wurden beseitigt, teilweise einige Ausgaben komplett neu formuliert.
+-ï¿½nderungen in den de_Sprachdateien
+Die Sprachdateien wurden aufgerï¿½umt, etliche Doppeleintragungen gestrichen, Rechtschreibfehler wurden beseitigt, teilweise einige Ausgaben komplett neu formuliert.
 
--Änderungen in den en_Sprachdateien
-Auch hier sind die Änderungen wie bei de_Sprachdateien erfolgt, danach neu übersetzt, kleine Tippfehler oder ähnliches ausgebessert.
+-ï¿½nderungen in den en_Sprachdateien
+Auch hier sind die ï¿½nderungen wie bei de_Sprachdateien erfolgt, danach neu ï¿½bersetzt, kleine Tippfehler oder ï¿½hnliches ausgebessert.
 
 -Ingame Rechtschreibfehler
-Im Spiel wurden sämtliche Rechtschreibfehler korrigiert, auf die wir aufmerksam geworden sind.
+Im Spiel wurden sï¿½mtliche Rechtschreibfehler korrigiert, auf die wir aufmerksam geworden sind.
 
--Änderungen Kaserne
+-ï¿½nderungen Kaserne
 Anzahl der schon vorhandenen Einheiten & Bauzeit pro Einheit eingebaut.
 
--Änderungen Waffenfabrik
+-ï¿½nderungen Waffenfabrik
 Anzahl der schon vorhandenen Einheiten eingebaut & Bauzeit pro Einheit eingebaut.
 
 -Update.php
-Bug behoben, der das berechnen der Punkte verhinderte, wenn bei einem Gebäude oder einer Einheit im ACP keine Punkte hinterlegt worden sind. 
+Bug behoben, der das berechnen der Punkte verhinderte, wenn bei einem Gebï¿½ude oder einer Einheit im ACP keine Punkte hinterlegt worden sind. 

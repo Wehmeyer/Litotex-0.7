@@ -20,7 +20,7 @@ Released under the GNU General Public License
 ************************************************************
 
 */
-@session_start();
+
 require("./../../includes/global.php");
 
 $modul_name="message";

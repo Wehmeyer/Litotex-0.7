@@ -3,21 +3,25 @@
 
   Litotex BrowsergameEngine 
   Copyright(C)2008 by FreeBG Team
+  Copyright(C)2016 by Litotex.info
   
   Download des Originals auf http://www.freebg.de
-  Kommentare und Fragen bitte ins Forum auf http://www.freebg.de
+  Kommentare und Fragen vom Originals bitte ins Forum auf http://www.freebg.de
   
+  Download des WeiterfÃ¼hrendes auf https://github.com/Wehmeyer/Litotex-0.7 oder http://litotex.info/
+  Kommentare und Fragen vom Originals bitte ins Forum auf http://www.freebg.de
+
   ------------------------------------------------------------------------
-    Dieses Programm ist freie Software. Sie können es unter
+    Dieses Programm ist freie Software. Sie kï¿½nnen es unter
     den Bedingungen der GNU General Public License, wie von der
     Free Software Foundation herausgegeben, weitergeben und/oder
     modifizieren, entweder unter Version 3 der Lizenz oder (wenn
-    Sie es wünschen) jeder späteren Version.
+    Sie es wï¿½nschen) jeder spï¿½teren Version.
 
-    Die Veröffentlichung dieses Programms erfolgt in der
-    Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE JEDE
-    GEWÄHRLEISTUNG - sogar ohne die implizite Gewährleistung
-    der MARKTREIFE oder der EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.
+    Die Verï¿½ffentlichung dieses Programms erfolgt in der
+    Hoffnung, daï¿½ es Ihnen von Nutzen sein wird, aber OHNE JEDE
+    GEWï¿½HRLEISTUNG - sogar ohne die implizite Gewï¿½hrleistung
+    der MARKTREIFE oder der EIGNUNG Fï¿½R EINEN BESTIMMTEN ZWECK.
     Details finden Sie in der GNU General Public License.
 
     Sie sollten eine Kopie der GNU General Public License zusammen
@@ -27,10 +31,10 @@
 
 	*************************************************************
     Sie finden die GNU GPL im englischen Original in der Datei LICENSE.txt
-    Eine deutsche Übersetzung ist unter http://www.gnu.de/documents/gpl-3.0.de.html zu finden
+    Eine deutsche ï¿½bersetzung ist unter http://www.gnu.de/documents/gpl-3.0.de.html zu finden
     
     Falls Sie mit den Bedingungen der GPL nicht einverstanden sind, 
-    so stehen kostenpflichtige Lizenzen auf Anfrage zur Verfügung. 
+    so stehen kostenpflichtige Lizenzen auf Anfrage zur Verfï¿½gung. 
     Wenden Sie sich dann bitte an http://www.freebg.de
 	*************************************************************
 

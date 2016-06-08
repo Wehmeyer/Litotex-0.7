@@ -8,19 +8,18 @@ http://www.freebg.de
 Copyright (c) 2008 FreeBG Team
 ************************************************************
 Hinweis:
-Diese Software ist urheberrechtlich geschützt.
+Diese Software ist urheberrechtlich geschï¿½tzt.
 
-Für jegliche Fehler oder Schäden, die durch diese Software
-auftreten könnten, übernimmt der Autor keine Haftung.
+Fï¿½r jegliche Fehler oder Schï¿½den, die durch diese Software
+auftreten kï¿½nnten, ï¿½bernimmt der Autor keine Haftung.
 
 Alle Copyright - Hinweise innerhalb dieser Datei
-dürfen WEDER entfernt, NOCH verändert werden.
+dï¿½rfen WEDER entfernt, NOCH verï¿½ndert werden.
 ************************************************************
 Released under the GNU General Public License
 ************************************************************
 
 */
-@session_start();
 $modul_name="forum";
 require("./../../includes/global.php");
 
@@ -83,7 +82,7 @@ function get_last_post_id_forum($forum_id){
 	$row_last=$db->fetch_array($result_last);
 	return intval($row_last['si_post_id']);
 }
-// letzte ID aus den angeschauten beiträgen suchen
+// letzte ID aus den angeschauten beitrï¿½gen suchen
 function get_last_show_id_forum($forum_id){
 	global $db,$n,$userdata;
 	$uid=$userdata['userid'];
@@ -98,7 +97,7 @@ function get_last_post_id_forum_topic($forum_id,$topic_id){
 	$row_last=$db->fetch_array($result_last);
 	return intval($row_last['si_post_id']);
 }
-// letzte ID aus den angeschauten beiträgen suchen
+// letzte ID aus den angeschauten beitrï¿½gen suchen
 function get_last_show_id_forum_topic($forum_id,$topic_id){
 	global $db,$n,$userdata;
 	$uid=$userdata['userid'];
@@ -361,10 +360,10 @@ if($action=="show_post") {
 		{
 			$post_edit_pic="";
 		}
-		// löschen
+		// lï¿½schen
 		$ali_admin=$userdata['isadmin'];
 		if ($post_id_t==$userdata['userid'] || $ali_admin == 1){
-			$post_del_pic="<a href=\"forum.php?action=delete&ft_id=$ft_id&f_id=$f_id&fp_id=$post_new_id\"><img src=\"".LITO_IMG_PATH_URL.$modul_name."/del.png\" title=\"Löschen\" alt=\"Löschen\" border=\"0\"></a>";
+			$post_del_pic="<a href=\"forum.php?action=delete&ft_id=$ft_id&f_id=$f_id&fp_id=$post_new_id\"><img src=\"".LITO_IMG_PATH_URL.$modul_name."/del.png\" title=\"Lï¿½schen\" alt=\"Lï¿½schen\" border=\"0\"></a>";
 		}else
 		{
 			$post_del_pic="";
@@ -535,7 +534,7 @@ if($action=="edit_save") {
 	$uname=$userdata['username'];
 	$my_ip="";
 	$date_edit_time=date("d.m.Y, H:i",$date);
-	$ft_titel_text=$ft_titel_text."<br><br>geändert am :".$date_edit_time;
+	$ft_titel_text=$ft_titel_text."<br><br>geï¿½ndert am :".$date_edit_time;
 
 	if ($ft_titel_text==""){
 		show_error('ln_error_9',$modul_name);

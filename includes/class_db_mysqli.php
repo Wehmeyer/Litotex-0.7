@@ -4,17 +4,19 @@
 Litotex BrowsergameEngine
 http://www.Litotex.de
 http://www.freebg.de
+http://www.litotex.info (!NEW)
 
-Copyright (c) 2014 Michael Luckas
+Copyright (c) 2008 FreeBG Team
+Copyright (c) 2016 Litotex.info
 ************************************************************
 Hinweis:
-Diese Software ist urheberechtlich geschuetzt.
+Diese Software ist urheberechtlich geschützt.
 
-Fuer jegliche Fehler oder Schaeden, die durch diese Software
-auftreten koennten, uebernimmt der Autor keine Haftung.
+Für jegliche Fehler oder Schäden, die durch diese Software
+auftreten könnten, übernimmt der Autor keine Haftung.
 
 Alle Copyright - Hinweise Innerhalb dieser Datei
-duerfen NICHT entfernt und NICHT veraendert werden.
+dürfen NICHT entfernt und NICHT verändert werden.
 ************************************************************
 Released under the GNU General Public License
 ************************************************************

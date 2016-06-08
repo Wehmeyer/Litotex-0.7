@@ -20,7 +20,6 @@ Released under the GNU General Public License
 ************************************************************
 
 */
-@session_start();
 require("./../../includes/global.php");
 
 if(isset($_REQUEST['action'])) $action=$_REQUEST['action'];
